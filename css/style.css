@@ -58,7 +58,7 @@ nav {
 
 .banner-container {
   max-width: 1440px;
-  margin: 50px auto 0;
+  margin: 50px auto 80px;
   background-color: gainsboro;
   display: flex;
   padding: 10px;
@@ -103,4 +103,49 @@ nav {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+/* products section */
+
+.product-container {
+  max-width: 1440px;
+  margin: 0 auto 50px;
+}
+.product-container h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.all-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.single-product {
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(220, 220, 220, 0.156);
+  box-shadow: 2px 2px 4px black;
+}
+.single-product img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+.product-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-icon h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.product-fontawsome {
+  font-size: 18px;
+  color: white;
+  background-color: slateblue;
+  padding: 12px;
+  border-radius: 50%;
+  margin-left: 10px;
 }

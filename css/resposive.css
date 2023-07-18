@@ -39,4 +39,10 @@
   .icon-container {
     width: 85%;
   }
+
+  /* products section */
+
+  .all-products {
+    grid-template-columns: 1fr;
+  }
 }
