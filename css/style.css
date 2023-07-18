@@ -203,3 +203,32 @@ nav {
   padding: 20px;
   border-radius: 5px;
 }
+
+/* user review section */
+.review h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+.single-review {
+  max-width: 300px;
+  /* flex-basis: 400px; */
+  background-color: palevioletred;
+  padding: 15px;
+  border-radius: 10px;
+}
+.review-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-top img {
+  width: 15%;
+}
