@@ -149,3 +149,57 @@ nav {
   border-radius: 50%;
   margin-left: 10px;
 }
+
+/* discount section style */
+.discount {
+  background-color: slateblue;
+  /* padding-top: 10px; */
+}
+.discount-container {
+  max-width: 1440px;
+  min-height: 650px;
+  padding: 20px;
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discount-img {
+  width: 50%;
+  position: relative;
+}
+.discount-img img {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.discount-number {
+  background-color: rgba(255, 255, 0, 0.629);
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1%;
+  left: 65%;
+}
+.discount-text {
+  width: 50%;
+}
+.discount-text h3 {
+  font-size: 22px;
+}
+.discount-text p {
+  font-size: 18px;
+}
+.btn-discount {
+  background-color: slategray;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}

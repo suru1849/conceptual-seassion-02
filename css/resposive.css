@@ -45,4 +45,20 @@
   .all-products {
     grid-template-columns: 1fr;
   }
+
+  /* discount section*/
+  .discount-container {
+    flex-direction: column;
+  }
+  .discount-img,
+  .discount-text {
+    width: 100%;
+  }
+  .discount-img img {
+    width: 82%;
+  }
+  .discount-text .btn-discount {
+    display: block;
+    margin: 0 auto;
+  }
 }
