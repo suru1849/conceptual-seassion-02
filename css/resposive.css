@@ -1,4 +1,5 @@
 @media screen and (max-width: 400px) {
+  /* nav section */
   .nav-items-container,
   .nav-container {
     flex-direction: column;
@@ -18,5 +19,24 @@
     text-align: center;
     margin: 0;
     margin: 10px 0px;
+  }
+
+  /* banner section */
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-text,
+  .banner-img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .banner-text h1 {
+    font-size: 40px;
+  }
+  .banner-text p {
+    font-size: 35px;
+  }
+  .icon-container {
+    width: 85%;
   }
 }
