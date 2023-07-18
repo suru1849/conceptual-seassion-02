@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+  .nav-items-container,
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-logo-container {
+    width: 90%;
+    justify-content: center;
+  }
+  .nav-items-container a {
+    margin-top: 10px;
+  }
+  .nav-items-container {
+    width: 100%;
+  }
+  .nav-items-container .btn {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin: 10px 0px;
+  }
+}
